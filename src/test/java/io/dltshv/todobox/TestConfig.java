@@ -1,7 +1,5 @@
 package io.dltshv.todobox;
 
-import io.dltshv.todobox.jwt.JwtService;
-import io.dltshv.todobox.jwt.JwtSigningProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

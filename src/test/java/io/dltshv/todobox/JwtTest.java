@@ -1,6 +1,5 @@
 package io.dltshv.todobox;
 
-import io.dltshv.todobox.jwt.JwtService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

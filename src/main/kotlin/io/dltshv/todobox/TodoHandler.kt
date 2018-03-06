@@ -1,5 +1,7 @@
 package io.dltshv.todobox
 
+import io.dltshv.todobox.entity.TodoEntity
+import io.dltshv.todobox.repository.TodoRepository
 import org.springframework.http.MediaType
 import org.springframework.stereotype.Service
 import org.springframework.web.reactive.function.BodyInserters.fromObject
@@ -8,9 +10,6 @@ import org.springframework.web.reactive.function.server.ServerRequest
 import org.springframework.web.reactive.function.server.ServerResponse
 import org.springframework.web.reactive.function.server.ServerResponse.ok
 import reactor.core.publisher.Mono
-import java.security.Principal
-import java.util.*
-import java.util.function.BiFunction
 
 @Service
 class TodoHandler(val repo: TodoRepository) {

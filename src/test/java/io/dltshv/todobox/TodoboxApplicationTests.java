@@ -1,5 +1,7 @@
 package io.dltshv.todobox;
 
+import io.dltshv.todobox.entity.TodoEntity;
+import io.dltshv.todobox.repository.TodoRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

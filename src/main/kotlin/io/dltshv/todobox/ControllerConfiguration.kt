@@ -1,5 +1,6 @@
 package io.dltshv.todobox
 
+import io.dltshv.todobox.repository.TodoRepository
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.web.reactive.config.EnableWebFlux

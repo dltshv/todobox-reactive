@@ -1,7 +1,7 @@
-package io.dltshv.todobox;
+package io.dltshv.todobox.repository;
 
+import io.dltshv.todobox.entity.TodoEntity;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
-import reactor.core.publisher.Mono;
 
 public interface TodoRepository extends ReactiveCrudRepository<TodoEntity, String> {
 }

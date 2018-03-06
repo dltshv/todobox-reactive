@@ -1,4 +1,4 @@
-package io.dltshv.todobox;
+package io.dltshv.todobox.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
